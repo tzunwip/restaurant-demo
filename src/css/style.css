@@ -212,6 +212,12 @@ main {
   column-span: all;
 }
 
+@media (max-width: 480px) {
+  .menu__burger-comment {
+    width: 12rem;
+  }
+}
+
 .location {
   white-space: pre;
 }
